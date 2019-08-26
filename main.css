@@ -1,12 +1,74 @@
-/* font-family: 'Cookie', cursive; */
-@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
-
-/* font-family: 'Open Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+*{
+    box-sizing: border-box;
+}
 
 
-h1 {
+#corpo{
+    background: url(../img/04-BG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+   
+
+
+}
+
+
+#barra-top{
+    background: #ACD0B6;
+    text-align: center;
+    padding: 1.2em;
+}
+
+
+#titulo{
     font-family: 'Cookie', cursive;
-    font-size: 71px;
-    color: purple;
+    text-align: center;
+    color:#E4EDCE;
+    line-height: 46px;
+    margin-bottom: 13px;
+    font-size: 4em;
+}
+
+
+ #caixa-formulario{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 380px;
+
+}
+
+
+input, #message{
+   
+    font-family: 'Open Sans', sans-serif; 
+    display:flex;
+    border:none;
+    font-size: 1em;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 3.5px;
+    margin: 19px 0px; 
+}
+
+
+
+#message{
+    height: 150px;
+}
+
+
+#enviar{
+    
+    background-color: #71A496;
+    font-weight: bold;
+    box-shadow: 0 6.5px 0 #4A8978;
+    color:white;
+    justify-content: center;
+    
 }

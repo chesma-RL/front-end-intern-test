@@ -3,8 +3,21 @@
 }
 
 
+
+::selection{
+    background: #8AD1B8;
+    color: black;
+}
+
+
+#enviar:active{
+    background-color: #4D7067;
+}
+
+
+
 #corpo{
-    background: url(../img/04-BG.png);
+    background: url(../assets/04-BG.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -71,4 +84,30 @@ input, #message{
     color:white;
     justify-content: center;
     
+}
+
+
+
+@media screen and (min-width: 1024px ){
+    #corpo{
+        background-image: url(../assets/06-BG.jpg);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #corpo{
+        background-image: url(../assets/07-BG.jpg)
+    }
+
+    #caixa-formulario{
+        width: 100%;
+       
+    }
+
+    #enviar{
+        position: absolute;
+        margin-bottom: 0;
+       
+    }
+   
 }

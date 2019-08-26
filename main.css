@@ -17,7 +17,7 @@
 
 
 #corpo{
-    background: url(../assets/04-BG.png);
+    background: url(./assets/04-BG.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -90,13 +90,13 @@ input, #message{
 
 @media screen and (min-width: 1024px ){
     #corpo{
-        background-image: url(../assets/06-BG.jpg);
+        background-image: url(./assets/06-BG.jpg);
     }
 }
 
 @media screen and (max-width: 600px) {
     #corpo{
-        background-image: url(../assets/07-BG.jpg)
+        background-image: url(./assets/07-BG.jpg)
     }
 
     #caixa-formulario{
